@@ -4,11 +4,14 @@
     "express": "^4.17.2",
     "nodemailer": "^6.7.2"
   },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "name": "my-first-node",
   "version": "1.0.0",
   "main": "1-function.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
